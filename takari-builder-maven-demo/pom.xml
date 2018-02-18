@@ -8,7 +8,7 @@
   </parent>
 
   <groupId>io.takari.builder.demo</groupId>
-  <artifactId>takari-builder-demo</artifactId>
+  <artifactId>takari-builder-maven-demo</artifactId>
   <packaging>takari-maven-plugin</packaging>
 
   <dependencies>
@@ -28,6 +28,10 @@
       <artifactId>takari-builder-apt</artifactId>
       <scope>provided</scope>
     </dependency>
+    <dependency>
+      <groupId>io.takari.builder</groupId>
+      <artifactId>takari-builder-maven-impl</artifactId>
+    </dependency>
 
     <!-- test dependencies, only junit is required in most cases -->
     <dependency>
@@ -35,6 +39,8 @@
       <artifactId>junit</artifactId>
       <scope>test</scope>
     </dependency>
+    
+    
 
     <!-- maven plugin integration test dependencies, not necessary in most cases -->
     <dependency>

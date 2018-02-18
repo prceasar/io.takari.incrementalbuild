@@ -1,4 +1,4 @@
-package io.takari.builder.internal;
+package io.takari.builder.internal.maven;
 
 import java.util.Arrays;
 import java.util.Collection;

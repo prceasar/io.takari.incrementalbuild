@@ -14,14 +14,14 @@
     <plugins>
       <plugin>
         <groupId>io.takari.builder</groupId>
-        <artifactId>takari-builder</artifactId>
+        <artifactId>takari-builder-maven-impl</artifactId>
         <version>${takari-builder.version}</version>
         <extensions>true</extensions>
       </plugin>
 
       <plugin>
         <groupId>io.takari.builder.demo</groupId>
-        <artifactId>takari-builder-demo</artifactId>
+        <artifactId>takari-builder-maven-demo</artifactId>
         <version>${it-project.version}</version>
         <executions>
           <execution>

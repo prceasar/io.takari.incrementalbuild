@@ -14,6 +14,11 @@
   <dependencies>
     <dependency>
       <groupId>io.takari.builder</groupId>
+      <artifactId>takari-builder-maven-impl</artifactId>
+      <version>${it-project.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>io.takari.builder</groupId>
       <artifactId>takari-builder</artifactId>
       <version>${it-project.version}</version>
     </dependency>

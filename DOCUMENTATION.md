@@ -356,13 +356,13 @@ We stronly recommend that Builder projects include at least basic unit tests tha
 
 ## Example Builder Project
 
-[takari-builder-demo](takari-builder-demo) project included in the source tree provides an example of the recommended project structure.
+[takari-builder-maven-demo](takari-builder-maven-demo) project included in the source tree provides an example of the recommended project structure.
 
-[CopyFilesBuilder.java](takari-builder-demo/src/main/java/io/takari/builder/demo/CopyFilesBuilder.java) implements a build that copies configured input files to the configured output directory. The builder considers 13-byte-long input files invalid (and who doesn't?!) and reports corresponding build error message.
+[CopyFilesBuilder.java](takari-builder-maven-demo/src/main/java/io/takari/builder/demo/CopyFilesBuilder.java) implements a build that copies configured input files to the configured output directory. The builder considers 13-byte-long input files invalid (and who doesn't?!) and reports corresponding build error message.
 
-[CopyFilesBuilderTest.java](takari-builder-demo/src/test/java/io/takari/builder/demo/CopyFilesBuilderTest.java) demonstrates how to implement builder unit tests.
+[CopyFilesBuilderTest.java](takari-builder-maven-demo/src/test/java/io/takari/builder/demo/CopyFilesBuilderTest.java) demonstrates how to implement builder unit tests.
 
-Although isn't necessary in most cases, the demo project includes [CopyFilesMavenIntegrationTest.java](takari-builder-demo/src/test/java/io/takari/builder/demo/CopyFilesMavenIntegrationTest.java) that shows how to implement Maven plugin integration tests.
+Although isn't necessary in most cases, the demo project includes [CopyFilesMavenIntegrationTest.java](takari-builder-maven-demo/src/test/java/io/takari/builder/demo/CopyFilesMavenIntegrationTest.java) that shows how to implement Maven plugin integration tests.
 
 ## Example Project That Uses a Builder
 
@@ -930,7 +930,7 @@ Here's an example test:
 
 Although generally not required, Maven plugin integration tests provide an additional measure of confidence that Builders work as designed during a Maven build. [Takari Maven Plugin Testing Framework](https://github.com/takari/takari-plugin-testing-project/blob/master/readme.md#integration-testing) is the recommended way to implement integration tests. The incremental build framework does not impose any additional integration test requirements.
 
-[CopyFilesMavenIntegrationTest](takari-builder-demo/src/test/Java/io/takari/builder/demo/CopyFilesMavenIntegrationTest.java) and corresponding [test project](takari-builder-demo/src/test/projects/basic) provide an example of a builder Maven integration test.
+[CopyFilesMavenIntegrationTest](takari-builder-maven-demo/src/test/Java/io/takari/builder/demo/CopyFilesMavenIntegrationTest.java) and corresponding [test project](takari-builder-mven-demo/src/test/projects/basic) provide an example of a builder Maven integration test.
 
 ### Maven Plugin Unit Tests
 
@@ -961,7 +961,7 @@ For tests using JUnit3, call BuilderRuntime `enterTestScope()`/`leaveTestScope()
   }
 ```
 
-[CopyFilesMavenUnitTest](takari-builder-demo/src/test/Java/io/takari/builder/demo/CopyFilesMavenUnitTest.java) provides an example of a plugin unit test that uses JUnit4 and [Takari Maven Plugin Testing Framework](https://github.com/takari/takari-plugin-testing-project/blob/master/readme.md#unit-testing).
+[CopyFilesMavenUnitTest](takari-builder-maven-demo/src/test/Java/io/takari/builder/demo/CopyFilesMavenUnitTest.java) provides an example of a plugin unit test that uses JUnit4 and [Takari Maven Plugin Testing Framework](https://github.com/takari/takari-plugin-testing-project/blob/master/readme.md#unit-testing).
 
 <a id="Maven-plugin-migration"></a>
 ## Migrating Existing Maven plugins

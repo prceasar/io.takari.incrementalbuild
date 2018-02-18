@@ -26,7 +26,7 @@
     <plugins>
       <plugin>
         <groupId>io.takari.builder</groupId>
-        <artifactId>takari-builder</artifactId>
+        <artifactId>takari-builder-maven-impl</artifactId>
         <version>${it-project.version}</version>
         <extensions>true</extensions>
       </plugin>
