@@ -11,7 +11,7 @@ import org.apache.maven.project.MavenProject;
 
 import io.takari.builder.IArtifactMetadata;
 import io.takari.builder.internal.Dependency;
-import io.takari.builder.internal.DependencyResolver;
+import io.takari.builder.runtime.api.DependencyResolver;
 
 public class MavenProjectDependencyResolver implements DependencyResolver {
 

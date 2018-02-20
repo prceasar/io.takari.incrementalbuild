@@ -27,6 +27,7 @@ import io.takari.builder.internal.BuilderInputs.Value;
 import io.takari.builder.internal.model.AbstractParameter;
 import io.takari.builder.internal.model.BuilderClass;
 import io.takari.builder.internal.workspace.FilesystemWorkspace;
+import io.takari.builder.runtime.api.DependencyResolver;
 
 class TestInputBuilder {
 

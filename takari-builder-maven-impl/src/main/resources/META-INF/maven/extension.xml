@@ -5,6 +5,7 @@
    -->
  <exportedPackages>
    <exportedPackage>io.takari.builder.*</exportedPackage>
+   <exportedPackage>io.takari.builder.runtime.api.*</exportedPackage>
    <exportedPackage>io.takari.builder.enforcer.*</exportedPackage>
    <exportedPackage>io.takari.builder.testing.*</exportedPackage>
    <exportedPackage>io.takari.builder.internal.maven.AbstractIncrementalMojo</exportedPackage>
@@ -18,6 +19,7 @@
    | exported artifacts in groupId:artifactId format 
    -->
  <exportedArtifacts>
+   <exportedArtifact>io.takari.builder:takari-builder-maven-impl</exportedArtifact>
    <exportedArtifact>io.takari.builder:takari-builder</exportedArtifact>
    <exportedArtifact>io.takari.builder:takari-builder-enforcer</exportedArtifact>
    <exportedArtifact>io.takari.builder:takari-builder-security-manager</exportedArtifact>

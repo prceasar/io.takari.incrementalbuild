@@ -78,6 +78,7 @@ import io.takari.builder.internal.model.UnsupportedCollectionParameter;
 import io.takari.builder.internal.pathmatcher.FileMatcher;
 import io.takari.builder.internal.pathmatcher.JarEntries;
 import io.takari.builder.internal.pathmatcher.PathNormalizer;
+import io.takari.builder.runtime.api.DependencyResolver;
 
 public class BuilderInputsBuilder implements BuilderMetadataVisitor {
 

@@ -30,13 +30,13 @@ import io.takari.builder.internal.BuilderContext;
 import io.takari.builder.internal.BuilderInputs;
 import io.takari.builder.internal.BuilderRunner;
 import io.takari.builder.internal.ClasspathMatcher;
-import io.takari.builder.internal.DependencyResolver;
 import io.takari.builder.internal.JvmClasspathEntriesSupplier;
 import io.takari.builder.internal.Reflection;
 import io.takari.builder.internal.ResourceRoot;
 import io.takari.builder.internal.digest.ClasspathDigester;
 import io.takari.builder.internal.model.BuilderMethod;
 import io.takari.builder.internal.workspace.FilesystemWorkspace;
+import io.takari.builder.runtime.api.DependencyResolver;
 import io.takari.incrementalbuild.workspace.Workspace;
 
 public class BuilderExecution {

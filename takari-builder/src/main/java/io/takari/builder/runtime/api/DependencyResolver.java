@@ -1,4 +1,4 @@
-package io.takari.builder.internal;
+package io.takari.builder.runtime.api;
 
 import java.nio.file.Path;
 import java.util.Map;
